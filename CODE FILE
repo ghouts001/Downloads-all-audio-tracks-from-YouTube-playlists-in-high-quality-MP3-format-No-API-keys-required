@@ -182,8 +182,8 @@ def main():
         quality = sys.argv[3]
     else:
         print("\n🎧 Audio Quality Options:")
-        print("   1. High (320 kbps)")
-        print("   2. Good (192 kbps) - Recommended")
+        print("   1. High (320 kbps) Recommended")
+        print("   2. Good (192 kbps) ")
         print("   3. Standard (128 kbps)")
         
         quality_choice = input("Choose quality (1-3, press Enter for 2): ").strip()
